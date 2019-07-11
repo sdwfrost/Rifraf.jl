@@ -157,7 +157,7 @@ function inband(A::BandedArray, i::Int, j::Int)
 end
 
 """Return a dense representation of A"""
-function Base.full(A::BandedArray{T}) where {T}
+function full(A::BandedArray{T}) where {T}
     result = zeros(T, size(A))
     for j = 1:A.ncols
         start, stop = row_range(A, j)

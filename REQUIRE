@@ -1,4 +1,4 @@
-julia 0.6
+julia
 ArgParse
 BioSequences
 Distributions
@@ -6,4 +6,3 @@ Glob
 IterTools
 Parameters
 StatsBase
-TestSetExtensions
